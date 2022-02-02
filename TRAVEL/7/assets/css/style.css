@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --open: 'Open Sans', sans-serif;
+    --monts: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+header {
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+header nav i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.header-body h1 {
+    font: 300 52px var(--open);
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 215px;
+}
+
+.header-body form input {
+    font: 400 16px var(--open);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    padding: 10px 0 10px 15px;
+    width: 326px;
+    border: none;
+    outline: none;
+}
+
+.header-body form button {
+    font: bold 16px var(--open);
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 10px 50px;
+    background-color: #fd4f32;
+    border: none;
+    outline: none;
+}
+
+.header-body form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 205px;
+}
+
+
+/* header css finisg */
+
+
+/* destinat css start */
+
+.destinat {
+    background-color: #eeeeee;
+}
+
+.destinat h2 {
+    font: 400 16px var(--monts);
+    letter-spacing: 0px;
+    color: #323232;
+    padding-top: 60px;
+}
+
+.destinat p {
+    font: 400 15px var(--open);
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    margin-top: 13px;
+}
+
+.country {
+    padding-bottom: 67px;
+    display: flex;
+    margin-top: 38px;
+}
+
+.country img {
+    width: 240px;
+    height: 200px;
+}
+
+.south {
+    margin-left: 16px;
+}
+
+.country h3 {
+    font: 400 14px var(--monts);
+    letter-spacing: 0px;
+    color: #323232;
+    margin-top: 20px;
+}
+
+.country p,
+h3 {
+    margin-left: 20px;
+}
+
+
+/* destinat css finish */
+
+
+/* before css start */
+
+.before {
+    background-color: #ffffff;
+}
+
+.before h1 {
+    font: 300 52px var(--open);
+    letter-spacing: 2px;
+    color: #323232;
+    padding-top: 79px;
+}
+
+.document h3 {
+    font: 400 16px var(--monts);
+    color: #323232;
+    letter-spacing: 0px;
+    margin-left: 0;
+}
+
+.document p {
+    font: 400 15px var(--open);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    margin-top: 18px;
+}
+
+.document {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+}
+
+.document div {
+    width: 280px;
+}
+
+h4 {
+    font: 400 16px var(--monts);
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.subscribe input {
+    font: 400 16px var(--open);
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    text-align: center;
+    padding: 9px 160px 9px 5px;
+    background-color: #eeeeee;
+    outline: none;
+    border: none;
+}
+
+.subscribe button {
+    font: 700 16px var(--open);
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #fd4f32;
+    border: none;
+    outline: none;
+    padding: 9px 30px 9px 30px;
+}
+
+.subscribe form {
+    display: flex;
+}
+
+.subscribe form {
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 90px;
+}
+
+
+/* before css finish */
+
+
+/* copyright css start */
+
+.copyright {
+    background-color: #eeeeee;
+}
+
+.copyright {
+    font: 400 14px var(--open);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    padding: 31px;
+    border-top: 2px solid #e7e7e7;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog nav a {
+    font: 500 14px var(--monts);
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: center;
+    margin-left: 18px;
+}
